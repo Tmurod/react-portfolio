@@ -1,30 +1,36 @@
-import ProductPage from "../pages/productPage";
+import { PricingPage } from "../pages/PricingPage";
+import { BlogPage } from "../pages/blogPage";
+import HomePage from "../pages/homePage";
+import FeaturestPage from "../pages/productPage";
 
 const navbar = [
   {
     id: 1,
-    name: 'All Products',
+    name: 'Home',
     hidden: false,
-    path: "/allProducts",
-    element: <ProductPage />,
+    path: "/home",
+    element: <HomePage />,
   },
   {
     id: 2,
-    name: 'Solutions',
+    name: 'Features',
     hidden: false,
-    path: "/solutions"
+    path: "/features",
+    element: <FeaturestPage />,
   },
   {
     id: 3,
-    name: 'About',
+    name: 'Pricing',
     hidden: false,
-    path: "/about"
+    path: "/pricing",
+    element: <PricingPage />
   },
   {
     id: 4,
-    name: 'Support',
+    name: 'Blog',
     hidden: false,
-    path: "/support",
+    path: "/blog",
+    element: <BlogPage />
   }
 ];
 

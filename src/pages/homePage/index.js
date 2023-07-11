@@ -1,3 +1,9 @@
 import Home from "../../components/home"
 
-export const HomePage = () => <Home />
+const HomePage = () => {
+  return (
+    <Home />
+  )
+}
+
+export default HomePage;

@@ -1,0 +1,26 @@
+.logo {
+  cursor: pointer;
+}
+
+nav {
+  a {
+    text-decoration: none;
+    color: #696871;
+
+    &:hover {
+      color: #19191B
+    }
+  }
+}
+
+.button {
+  padding: 19px 60px;
+  background: #FF7143;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+
+  &:active {
+    opacity: 0.8
+  }
+}

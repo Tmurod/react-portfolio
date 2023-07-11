@@ -1,5 +1,5 @@
-import Products from "../../components/products";
+import Features from "../../components/Features";
 
-const ProductPage = () => <Products />;
+const FeaturestPage = () => <Features />;
 
-export default ProductPage;
+export default FeaturestPage;
