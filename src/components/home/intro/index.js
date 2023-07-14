@@ -13,8 +13,8 @@ export const Intro = () => {
         <p>
           Outcome-centered products that reduce churn, optimize pricing, and grow your subscription business end-to-end.
         </p>
-        <button className={classes.text}>Get Started</button>
-        <button className={classes.arrow}>&#8595;</button>
+        <button className={classes.btnText}>Get Started</button>
+        <button className={classes.btnArrow}>&#8595;</button>
       </div>
       <div>
         <img src={intro} />

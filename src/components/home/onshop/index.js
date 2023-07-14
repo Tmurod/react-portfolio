@@ -1,13 +1,12 @@
 import { useNavigate } from "react-router-dom";
 import man from "../../../assets/images/Content Image.png";
-import classes from "../counter/index.module.scss";
 
 const Onshop = () => {
   const navigate = useNavigate()
   return (
     <div className="container d-flex justify-content-around align-items-center">
       <div>
-        <h2 className={classes.title}>
+        <h2>
           In-depth metrics
         </h2>
         <p>

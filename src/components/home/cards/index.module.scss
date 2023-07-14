@@ -1,0 +1,95 @@
+.cards {
+  border-radius: 10px;
+  transition: 1s all;
+  background: #F8F8F8;
+  text-align: center;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0px 32px 34px 0px #FF703B51;
+    background: #FF7143;
+    transform: scale(1.07);
+
+    .info,
+    .price {
+      color: white;
+    }
+
+    .btn {
+      background: #9F3919;
+      color: #fff;
+    }
+  }
+}
+
+.title {
+  font-family: DM Sans;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -1.87px;
+  text-align: left;
+  width: 523px;
+  height: 140px
+}
+
+.info {
+  font-family: DM Sans;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.56px;
+  text-align: center;
+  color: #696871;
+  padding: 34px 130px;
+  width: 100%;
+  transition: 1s all;
+  margin-bottom: 0;
+}
+
+.price {
+  font-family: DM Sans;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -1.03px;
+  text-align: center;
+  color: #1D293F;
+  transition: 1s all;
+}
+
+.btn {
+  padding: 19px 42px;
+  margin-bottom: 27px;
+  color: #5454D4;
+  background: #fff;
+  border: none;
+  border-radius: 15px;
+  transition: 1s all;
+}
+
+.yearly {
+  font-family: DM Sans;
+  color: #FFFFFF;
+  background: #5454D4;
+  padding: 18px 47px;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+  &:active {
+    opacity: 0.7;
+  }
+}
+
+.monthly {
+  font-family: DM Sans;
+  color: #000;
+  padding: 18px 47px;
+  border: none;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+
+  &:active {
+    opacity: 0.7;
+  }
+}
