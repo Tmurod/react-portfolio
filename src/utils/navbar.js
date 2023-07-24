@@ -20,14 +20,14 @@ const navbar = [
   },
   {
     id: 3,
-    name: 'Pricing',
+    name: 'Shop',
     hidden: false,
     path: "/pricing",
     element: <PricingPage />
   },
   {
     id: 4,
-    name: 'Blog',
+    name: 'Counter',
     hidden: false,
     path: "/blog",
     element: <BlogPage />

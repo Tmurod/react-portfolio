@@ -1,3 +1,3 @@
-import Pricing from "../../components/Pricing";
+import Pricing from "../../components/onShop";
 
 export const PricingPage = () => <Pricing />
