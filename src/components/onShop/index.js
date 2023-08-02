@@ -3,19 +3,29 @@ import { useEffect, useState } from "react";
 import CardShop from "./cards";
 import Btns from "./btns";
 
+const { PRODUCTS_API: url } = process.env;
+
 const Pricing = () => {
   const [data, setData] = useState([]);
-  const [btn, setBtne] = useState();
+  const [jewelery, setJewelery] = useState();
 
   const getApi = async () => {
-    await axios.get('https://fakestoreapi.com/products')
+    await axios.get(`https://fakestoreapi.com/products`)
       .then(api => {
         setData(api.data);
       })
   }
 
+  const getJewelery = async () => {
+    await axios.get('https://fakestoreapi.com/products/category/jewelery')
+      .then(res => {
+        setJewelery(res);
+      });
+  }
+
   useEffect(() => {
     getApi();
+    getJewelery();
   }, []);
 
   return (
